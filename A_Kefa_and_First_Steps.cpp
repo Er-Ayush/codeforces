@@ -161,26 +161,46 @@ return res;
 int32_t main()
 {
 c_p_c();
-w(t)
+// w(t)
 solve();
 return 0;
 }
 void solve(){
-int n;
+int n;cin>>n;
 vi v;
 loop(i,0,n){
     int x;cin>>x;
     v.push_back(x);
 }
-int ct=INT_MIN;
-loop(i,0,n){
-    int j=i;
-    while(1){
-        int temp=0;
-    if(v[j+1]>v[j]){
-        j++;
-        ct=max(ct,temp);
+int mlen=0;
+int mmex;
+// loop(i,0,n){
+// mmex=1;
+//     loop(j,i+1,n){
+//         if(v[j]>=v[i]){
+//             i++;
+//             mmex++;
+//         }
+//         else{
+//             i++;
+//             break;
+//         }
+//     }
+//     mlen=max(mlen,mmex);
+//     debug(mlen);
+// }
+// cout<<mlen<<"\n";
+mmex=1;
+for(int i=0;i<n-1;i++){
+    if(v[i]<=v[i+1]){
+    mmex++;
+    mlen=max(mlen,mmex);
     }
+    else{
+        mmex=1;
     }
+    
 }
+if(mlen==0) cout<<"1\n";
+else cout<<mlen<<"\n";
 }

@@ -1,4 +1,36 @@
 // Ohmm Ganeshaaye Namah
+ /*Code contributed by Ayush Chaurasia */
+ 
+ /* HELLO THERE I SEE YOU COPING MY CODE :( .....
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ⣤⣶⣶⣶⣶⣶⣦⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣠⢿⣿⣿⡿⣿⣿⣿⣿⣿⣿⣿⣿⣀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣰⣿⣿⣿⣿⡇⣿⣷⣿⣿⣿⣿⣿⣿⣯⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⡰⣿⣿⣿⣇⣿⣀⠸⡟⢹⣿⣿⣿⣿⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⢀⢡⣿⣿⣿⡇⠝⠋⠀⠀⠀⢿⢿⣿⣿⣿⣿⣿⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠸⢸⠸⣿⣿⣇⠀⠀⠀⠀⠀⠀⠊⣽⣿⣿⣿⠁⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⢿⣿⣿⣷⣄⠀⠀⠀⢠⣴⣿⣿⣿⠋⣠⡏⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠾⣿⣟⡻⠉⠀⠀⠀⠈⢿⠋⣿⡿⠚⠋⠁⡁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢀⣴⣶⣾⣿⣿⡄⠀⣳⡶⡦⡀⣿⣿⣷⣶⣤⡾⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣿⡆⠀⡇⡿⠉⣺⣿⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⢸⣿⣿⣿⣿⣿⣯⠽⢲⠇⠣⠐⠚⢻⣿⣿⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⡐⣾⡏⣷⠀⠀⣼⣷⡧⣿⣿⣦⣄⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣻⣿⣿⣿⣿⣿⣮⠳⣿⣇⢈⣿⠟⣬⣿⣿⣿⣿⣿⡦⢄⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⢀⢄⣾⣿⣿⣿⣿⣿⣿⣿⣷⣜⢿⣼⢏⣾⣿⣿⣿⢻⣿⣝⣿⣦⡑⢄⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⣠⣶⣷⣿⣿⠃⠘⣿⣿⣿⣿⣿⣿⣿⡷⣥⣿⣿⣿⣿⣿⠀⠹⣿⣿⣿⣷⡀⠀⠀⠀⠀⠀
+⠀⠀⣇⣤⣾⣿⣿⡿⠻⡏⠀⠀⠸⣿⣿⣿⣿⣿⣿⣮⣾⣿⣿⣿⣿⡇⠀⠀⠙⣿⣿⡿⡇⠀⠀⠀⠀⠀
+⠀⠀⢀⡴⣫⣿⣿⣿⠋⠀⠀⡇⠀⠀⢰⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡇⠀⠀⠀⢘⣿⣿⣟⢦⡸⠀⠀⠀
+⠀⡰⠋⣴⣿⣟⣿⠃⠀⠀⠀⠈⠀⠀⣸⣿⣿⣿⣿⣿⣿⣇⣽⣿⣿⣿⣿⣇⠀⠀⠀⠁⠸⣿⢻⣦⠉⢆⠀⠀
+⢠⠇⡔⣿⠏⠏⠙⠆⠀⠀⠀⠀⢀⣜⣛⡻⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡿⡀⠀⠀⠀⠀⡇⡇⠹⣷⡈⡄⠀
+⠀⡸⣴⡏⠀⠀⠀⠀⠀⠀⠀⢀⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿⣻⣿⣿⣿⣿⣿⣿⡄⠀⠀⠀⡇⡇⠀⢻⡿⡇⠀
+⠀⣿⣿⣆⠀⠀⠀⠀⠀⠀⢀⣼⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡀⠀⣰⠿⠤⠒⡛⢹⣿⠄
+⠀⣿⣷⡆⠁⠀⠀⠀⠀⢠⣿⣿⠟⠻⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⡟⠻⢷⡀⠀⠀⠀⠀⠀⣸⣿⠀
+⠀⠈⠿⢿⣄⠀⠀⠀⢞⠌⡹⠁⠀⠀⢻⡇⠹⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠁⢳⠀⠀⠁⠀⠀⠀⠀⢠⣿⡏⠀
+⠀⠀⠀⠈⠂⠀⠀⠀⠈⣿⠁⠀⠀⠀⡇⠁⠀⠘⢿⣿⣿⠿⠟⠋⠛⠛⠛⠀⢸⠀⠀⡀⠂⠀⠀⠐⠛⠉⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠐⠕⣠⡄⣰⡇⠀⠀⠀⢸⣧⠀⠀⠀⠀⠀⠀⠀⢀⣸⠠⡪⠊⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⢫⣽⡋⠭⠶⠮⢽⣿⣆⠀⠀⠀⠀⢠⣿⣓⣽⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣿⣿⣿⣿⣿⣿⣿⣿⢹⣶⣦⣾⣿⣿⣿⡏⠀⠀⠀⠀⠀⠀⠀⠀⠀
+*/ 
 #include<bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 using namespace __gnu_pbds;
@@ -11,7 +43,16 @@ void c_p_c()
 ios_base::sync_with_stdio(0); cin.tie(0); cout.tie(0);
 }
 
-#define cinvec(v)      for(int i=0;i<v.size();i++){int x;cin>>x;v.pb(x);}
+bool _isprime(int n)
+{
+if(n==1)return false;
+if(n==2 || n==3)return true;
+if(n%2==0 || n%3==0)return false;
+for(int i=5;i*i<=(n);i=i+6){if(n%i==0 || n%(i+2)==0)return false;}
+return true;
+}
+#define vari(n)         int n;cin>>n
+#define cinvec(v)       for(auto i:v){cin>>i;}
 #define poora(v)        v.begin(),v.end()
 #define ff              first
 #define ss              second
@@ -41,19 +82,139 @@ mt19937                 rng(chrono::steady_clock::now().time_since_epoch().count
 
 typedef tree<int, null_type, less<int>, rb_tree_tag, tree_order_statistics_node_update> pbds;
 
+int gcd(int a, int b)
+{
+if (a == 0)
+return b;
+return gcd(b % a, a);
+}
+
+int lcm(int a, int b)
+{
+return (a / gcd(a, b)) * b;
+}
+
+int decimalToBinary(int N)
+{
+int B_Number = 0;
+int ctr = 0;
+while (N != 0)
+{
+int temp = N % 2;
+int c = pow(10, ctr);
+B_Number += temp * c;
+N /= 2;
+ctr++;
+}
+return B_Number;
+}
+
+int isPalindrome(int num)
+{
+int n, k, rev = 0;
+n = num;
+while (num != 0)
+{
+k = num % 10;
+rev = (rev * 10) + k;
+num = num / 10;
+}
+if (n == rev)
+{
+return 1;
+}
+else
+{
+return 0;
+}
+}
+
+int maxSubArray(vector<int> &nums)
+{
+int size = nums.size();
+int max_ending_here = 0, max_so_far = INT_MIN;
+int min_ending_here = 0, min_so_far = INT_MAX;
+for (int i = 0; i < size; i++)
+{
+if (nums[i] <= max_ending_here + nums[i])
+{
+max_ending_here += (nums[i]);
+}
+else
+{
+max_ending_here = (nums[i]);
+}
+if (max_ending_here > max_so_far)
+max_so_far = max_ending_here;
+}
+for (int i = 0; i < size; i++)
+{
+if (nums[i] >= min_ending_here + nums[i])
+{
+min_ending_here += (nums[i]);
+}
+else
+{
+min_ending_here = (nums[i]);
+}
+if (min_ending_here < min_so_far)
+min_so_far = min_ending_here;
+}
+return max(max_so_far, abs(min_so_far));
+}
+
+int factorial(int n)
+{
+return (n == 1 || n == 0) ? 1 : n * factorial(n - 1);
+}
+
+int numberOfDigits(int x)
+{
+int i = 0;
+while (x)
+{
+x /= 10;
+i++;
+}
+return i;
+}
+
+int digSum(int x)
+{
+int res = 0;
+while (x)
+{
+res += x % 10;
+x /= 10;
+}
+return res;
+}
 
 int32_t main()
 {
 c_p_c();
- solve();
+// w(t)
+solve();
 return 0;
 }
 void solve(){
-string s;cin>>s;
+int n;cin>>n;
+map<string,int> msi;
+loop(i,0,n){
+    string s;cin>>s;
+    msi[s]++;
+}
 
-string s1="1111111";
-string s2="0000000";
-if((s.find(s1) != std::string::npos) || (s.find(s2) != std::string::npos)) cout<<"YES"<<"\n";
-else cout<<"NO"<<"\n";
-
+int mn=INT_MIN;
+for(auto it:msi){
+    mn=max(mn,it.second);
+    // debug(it.first);
+}
+for(auto it:msi){
+    // debug(it.first);
+    if(it.second==mn){
+        cout<<it.first;
+        return;
+    }
+}
 }
