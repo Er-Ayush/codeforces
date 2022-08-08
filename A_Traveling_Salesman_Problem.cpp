@@ -199,9 +199,22 @@ solve();
 return 0;
 }
 void solve(){
-//  int x, y;
-//     cin >> x >> y;
-//     for(int i=1;i<y;i++){
-//         if()
-//     }
+int n;cin>>n;
+vector<pair<int,int>> v;
+while(n--){
+    int x,y;cin>>x>>y;
+    v.push_back({x,y});
+}
+if(n==0){
+    cout<<"0\n";
+    return;
+}
+else if(n==1){
+    cout<<abs(v[0].first+v[1].second)<<"\n";
+    return;
+}
+else if(n==3){
+
+}
+
 }

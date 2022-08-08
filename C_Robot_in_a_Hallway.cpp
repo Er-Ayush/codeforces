@@ -199,9 +199,8 @@ solve();
 return 0;
 }
 void solve(){
-//  int x, y;
-//     cin >> x >> y;
-//     for(int i=1;i<y;i++){
-//         if()
-//     }
+int m;cin>>m;
+vi f(m),s(m);
+input(f);
+input(s);
 }

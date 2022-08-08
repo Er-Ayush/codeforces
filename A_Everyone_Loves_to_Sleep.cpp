@@ -199,9 +199,13 @@ solve();
 return 0;
 }
 void solve(){
-//  int x, y;
-//     cin >> x >> y;
-//     for(int i=1;i<y;i++){
-//         if()
-//     }
+int n,H,M;
+cin>>n>>H>>M;
+vector<pair<int,int>> v;
+while(n--){
+    int h,m;
+    cin>>h>>m;
+
+    
+}
 }

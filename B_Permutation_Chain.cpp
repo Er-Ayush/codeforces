@@ -199,9 +199,25 @@ solve();
 return 0;
 }
 void solve(){
-//  int x, y;
-//     cin >> x >> y;
-//     for(int i=1;i<y;i++){
-//         if()
-//     }
+int n;cin>>n;
+vi v;
+// input(v);
+cout<<n<<"\n";
+for(int i=1;i<=n;i++){
+    v.push_back(i);
+    cout<<i<<" ";
+}
+cout<<"\n";
+int k=0;
+loop(i,0,n-1){
+    int temp=v[k+1];
+    v[k+1]=v[k];
+    v[k]=temp;
+k++;
+loop(i,0,n){
+    cout<<v[i]<<" ";
+}
+cout<<"\n";
+}
+
 }

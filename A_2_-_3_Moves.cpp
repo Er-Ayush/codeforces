@@ -199,9 +199,22 @@ solve();
 return 0;
 }
 void solve(){
-//  int x, y;
-//     cin >> x >> y;
-//     for(int i=1;i<y;i++){
-//         if()
-//     }
+int n;cin>>n;
+if(n==1){
+    cout<<"2\n";
+    return;
 }
+if(n%3==0){
+    cout<<n/3<<"\n";
+    return;
+}
+else{
+    // n+=3-(n%3);
+    cout<<n/3+1<<"\n";
+}
+}
+// 14
+// 3 3 3 3 2
+//  3 3 3 2
+// 3 2 
+// 3 3 3 3 3
